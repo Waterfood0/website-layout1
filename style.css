@@ -59,21 +59,24 @@
 }
 .text-after-title{
     font-size:12px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top:3px;
+    margin-bottom:8px;
     color: rgb(180, 179, 179);
-    width: 20px;
+    width: 250px;
 }
 .picture{
-    margin-left:0px;
-    margin-top: 0px;
-    margin-right:0px;
+    flex:1 1 450px; 
+    display: flex;
     background-color:rgba(109, 116, 125);
-    color: rgba(78, 80, 82);
-    border-left: 70px solid rgba(109, 116, 125);
-    border-right: 50px solid rgba(109, 116, 125);
-    border-top: 70px solid rgba(109, 116, 125);
-    border-bottom: 70px solid rgba(109, 116, 125);
-    font-size:5px;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.picture > h1{
+    
+    
+    color: rgba(192, 199, 206, 0.719);
+    align-items: center;
+    font-size:10px;
+    
 }
