@@ -1,3 +1,79 @@
 *{
     color: white;
+    margin:0px;
+    border:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head-website{
+    background-color: rgb(31, 41, 55);
+    font-family: Arial;
+    height: 300px;
+    
+    
+}
+.head-web2{
+    display: flex;
+}
+.the-hightest-block{
+    flex:1;
+    font-size:14px;
+    justify-content: center;
+    margin-left:80px;
+    margin-top:10px;
+    height: 50px;
+    
+}
+
+.text-hightest-block{
+    height: 50px;
+    font-size:10px;
+    margin-right:10px;
+    margin-left:10px;
+    color: rgba(192, 199, 206, 0.719);
+    margin-top:10px;
+}
+.text-hightest-block.last{
+    
+    margin-right:80px;
+}
+.main-text-in-head{
+    margin-top: 30px;
+    font-size:16px;
+    color:white;
+    margin-left:80px;
+    margin-right:80px;
+    display:flex;
+}
+.main-text-in-head button{
+    background-color: rgb(59, 130, 246);
+    color: white;
+    
+    font-size:14px;
+    border-radius: 6px;
+    border: 0px;
+    padding-left:20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right:20px;
+}
+.text-after-title{
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color: rgb(180, 179, 179);
+    width: 20px;
+}
+.picture{
+    margin-left:0px;
+    margin-top: 0px;
+    margin-right:0px;
+    background-color:rgba(109, 116, 125);
+    color: rgba(78, 80, 82);
+    border-left: 70px solid rgba(109, 116, 125);
+    border-right: 50px solid rgba(109, 116, 125);
+    border-top: 70px solid rgba(109, 116, 125);
+    border-bottom: 70px solid rgba(109, 116, 125);
+    font-size:5px;
+    width: 400px;
 }
